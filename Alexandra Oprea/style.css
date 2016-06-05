@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f4f4f4;
+	font-family: arial,helvetica,sans-serif;
+}
+#wrapper {
+	width: 960px;
+	background: white;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.meniu {
+	margin-top: 5px;
+	list-style: none;
+	float: left;
+	background: #4cd642 url('imagini/fundal3.jpg') repeat-x;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.clearfix {
+	clear: both;
+}
+.meniu li {
+	float: left;
+}
+.meniu li a {
+	display: block;
+	float: left;
+	padding: 12px 23px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all 0.3s ease-in;
+}
+.meniu li a:hover {
+	background: rgba(0,0,0,0.2);
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 10px 0;
+}
+h1 {
+	font-size: 26px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 20px;
+}
+li {
+	font-size: 14px;
+	line-height: 22px;
+}
+h1.logo {
+	margin: 0;
+}
+#content {
+	margin-top: 10px;
+}
+#content p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.galerie img {
+	width: 45%;
+}
+ul {
+	margin-top: 10px;
+}
+ul.galerie li {
+	margin-left: 30px;
+}

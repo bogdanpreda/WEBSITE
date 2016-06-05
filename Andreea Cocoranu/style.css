@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body {
+	background: url(imagini/background.jpg);
+	background-size: cover;
+}
+
+.navbar-default {
+	background: linear-gradient(#2B2425, #1F1F1F);
+	border: 0;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:visited {
+	color: white;
+	transition: all 0.35s;
+
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active
+ {
+	color: #c34763;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	transition: all 0.35s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	background: #7e284f;
+}
+.navbar-default .navbar-nav>li>a:active {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:visited {
+	color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: white;
+	background: #7e284f;
+}
+.navbar-form .form-control,.nav-form .btn-default {
+	background: #f2f2f2;
+}
+.well {
+	box-sizing: border-box;
+}
+.btn-custom {
+	background: #222;
+	color: white;
+	transition: all 0.35s;
+}
+.btn-custom:hover,.btn-custom:active, .btn-custom:visited {
+	color: white;
+	background: #333;
+}
+.media:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.media-object {
+	margin-left: -5px;
+	width: 160px;
+	height: 230px;
+}
+.media-body-custom {
+	display: ;
+}
+.slider {
+	width: 125px;
+	height: 145px;
+	margin-left: 5px;
+}
+.slider:first-child {
+	margin-left: 0;
+}
+.well-black {
+	padding: 20px;
+	background: #222;
+	display: block;
+	border-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.divider {
+	margin: 5px 0;
+	border-bottom: 1px solid #ededed;
+}
+.well-custom {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.media a {
+	color: black;
+}
+.checkbox-custom label {
+	display: block;
+}
+.buttons {
+	margin-top: 10px;
+}
+.panel-default {
+	border: 1px solid #222;
+	background: #f5f5f5;
+}
+.panel-heading {
+	background: linear-gradient(#2B2425, #1F1F1F)!important; 
+	background:-moz-linear-gradient(#2B2425, #1F1F1F)!important;
+	background: -webkit-linear-gradient(#2B2425, #1F1F1F)!important;
+}
+.panel-title {
+	color: white;
+}
+.info {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.contact {
+	margin-top: 0;
+	padding-top: 0;
+}
+h4.contact {
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #222;
+}
+.navbar-default .navbar-toggle {
+	border-color: #555;
+}

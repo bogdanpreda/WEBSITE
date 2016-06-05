@@ -1,0 +1,98 @@
+@import url('reset.css');
+
+body {
+	background: #ddd url('imagini/bg.jpg') no-repeat;
+	background-position: 30% 0;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+#wrapper {
+	width: 960px;
+	margin: 20px auto;
+}
+.logo a img {
+	width: 90px;
+	float: left;
+}
+.logo a h1 {
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	line-height: 90px;
+	margin-left: 10px;
+}
+.clearfix {
+	clear: both;
+}
+#meniu {
+	width: 100%;
+	background: #B5002D;
+	float: left;
+	margin: 20px 0;
+}
+#meniu li {
+	float: left;
+}
+#meniu li a {
+	color: white;
+	display: block;
+	padding: 16px 22px;
+	text-decoration: none;
+	font-size: 14px;
+	transition: all 0.3s;
+}
+#meniu li a:hover {
+	background: rgba(0,0,0,0.3);
+}
+#content {
+	padding: 20px;
+	background: white;
+	font-size: 14px;
+	width: 580px;
+	float: left;
+}
+#content p {
+	line-height: 20px;
+}
+#content li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#content p img.full {
+	width: 100%;
+	margin: 10px 0;
+}
+#panou {
+	float: right;
+	width: 326px;
+	background: #E31A4C;
+}
+span {
+	color: #B5002D;
+}
+.img-page {
+	float: left;
+	display: block;
+	margin: 20px 0;
+	margin-right: 5px;
+}
