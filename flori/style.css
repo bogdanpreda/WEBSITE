@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+#top {
+	position: relative;
+	background: url('img/verde.jpg');
+	background-size: cover;
+}
+.wrap {
+	width: 1024px;
+	margin: 0 auto;
+}
+#header {
+	height: 80px;
+	background: rgba(255,255,255,0.8);
+	box-sizing: border-box;
+}
+#header h1 a img {
+	width: 85%;
+}
+#header h1 a {
+	float: left;
+	margin-top: -10px;
+	/*margin-top: 22px;
+	color: black;
+	font-family: Georgia;
+	font-size: 26px;
+	text-decoration: none;
+	float: left;
+	display: block;*/
+}
+/*#header h1 a:hover {
+	text-decoration: underline;
+}*/
+#menu {
+	margin-top: 20px;
+	float: right;
+	list-style: none;
+}
+ #menu li {
+ 	float: left;
+ 	margin-left: 20px;
+ }
+ #menu li a {
+ 	background: #5bb42a;
+ 	padding: 10px 20px;
+ 	border-radius: 8px;
+ 	color: white;
+ 	font-family: Georgia;
+ 	text-decoration: none;
+ 	transition: all 0.4s ease-in;
+ }
+ #menu li a:hover {
+ 	background: #4a7f2d;
+ }
+ .slider {
+ 	padding: 20px 0 30px;
+ }
+ .slider img{
+ 	box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+ }
+ #content {
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ }
+ h1,h2,h3,h4,h5,h6 {
+ 	padding-bottom: 10px;
+ }
+#content p {
+	line-height: 22px;
+	font-size: 14px;
+
+}
+.article img {
+	float: left;
+	margin-right: 5px;
+}
+.article {
+	font-size: 14px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+.article span {
+	color: ##235410;
+	font-weight: bold;
+	margin-bottom: 10px;
+	display: block;
+}
+.article p {
+	float: right;
+}
+.article a.more {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0 0;
+	margin-top: 20px;
+}
+.article a.more:hover {
+	text-decoration: underline;
+}
+.stanga {
+	width: 780px;
+	float: left;
+}
+.dreapta {
+	width: 200px;
+	float: right;
+	margin-left: 20px;
+}
+#footer {
+	background: #30392F;
+	display: block;
+	clear: both;
+	width: 100%;
+}
+#footer h3 {
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.clearfix {
+	clear: both;
+}
+input ,button{
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+button {
+	background: #5bb42a;
+	border: 1px solid white;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+}
