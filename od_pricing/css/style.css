@@ -1,0 +1,142 @@
+@import url('../assets/bootstrap/css/bootstrap.min.css');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800|Oswald);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #36A7ED;
+	margin: 0;
+	padding: 0;
+}
+.pr_table_container {
+	margin-bottom: 70px;
+}
+.site_header {
+	background: #333;
+	margin: 0;
+	padding: 0;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.site_header h1 {
+	color: white;
+	padding: 20px;
+	font-size: 2em;
+}
+.pr_f_table {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+}
+.pr_table { 
+	text-align: center;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	transition:0.5s all;
+	position: relative;
+	z-index: 0;
+}
+
+.pr_table:hover { 
+	transform: scale(1.09,1.08);
+	z-index: 50;
+}
+.pr_table.pr_active { 
+	transform: scale(1.09,1.08);
+	z-index: 30;
+}
+.pr_table span {
+	font-weight: bold;
+}
+
+
+.pr_table .table_header {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 0;
+	padding-bottom: 0px;
+	background: #073964;
+	color: white;
+}
+ .pr_table .table_header h3 {
+	background: rgba(0,0,0,0.2);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 15px;
+}
+.pr_table .table_header p {
+	font-size: 1.4em;
+}
+.pr_table .table_header span {
+	font-family: Oswald;
+	font-size: 1.8em;
+}
+.pr_table .table_header .description {
+	background: rgba(0,0,0,0.2);
+	color: white;
+	margin-bottom: 0;
+	padding: 5px;
+}
+.pr_table .table_header span.small {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+.pr_table .table_body {
+	background: #f8f8f8;
+
+}
+.pr_table .table_body ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.pr_table .table_body ul li {
+	padding: 15px 0;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	-webkit-transition:0.3s all;
+	-o-transition:0.3s all;
+	-moz-transition:0.3s all;
+	-ms-transition:0.3s all;
+	transition:0.3s all;
+}
+
+.pr_table .table_body ul li:hover {
+	background: #ddd;
+}
+.pr_table .table_footer {
+	background: #074E9A;
+	padding: 10px;
+	color: white;
+}
+.pr_table .table_footer .btn-default {
+	background: #f4f4f4;
+}
+.col-lg-2 .pr_table ,.col-md-2  .pr_table {
+	font-size:0.9em;
+} 
+.col-lg-2 .pr_table:hover ,.col-md-2  .pr_table:hover {
+	transform: scale(1.07,1.07);
+} 
+.pr_f_table_3 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.pr_f_table_6 {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.table_blue {
+	background: #073964 !important;
+}
+.table_red {
+	background: #F53939 !important;
+}
+.table_green {
+	background: #099E3D !important;
+}
+.table_yellow {
+	background: #D1AE03 !important;
+}
